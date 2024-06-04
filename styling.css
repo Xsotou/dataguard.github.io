@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    background-color: #FE7C28;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.nav-logo {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+}
+
+.logo-image {
+    height: 60px; 
+    margin-right: 10px; 
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.center-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.center-images {
+    display: flex;
+    justify-content: center;
+    gap: 10%; 
+}
+
+.center-images figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    max-width: 300px;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.center-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 7%;
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain; 
+}
+
+.center-images figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #000000;
+    text-align: left; 
+    word-wrap: break-word; 
+    max-width: 100%; 
+}
+
+.footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 5px 0; 
+    text-align: center;
+    position: fixed;
+    width: 100%; 
+    bottom: 0; 
+    font-size: 0.9em; 
+}
+
+.Title{
+    text-align: center;
+    margin-bottom: 1.5%;
+    margin-top: 5%;
+    font-size: 100px;
+}
+
+.SubTitle{
+    margin-bottom: 0px;
+    text-align: center;
+}
